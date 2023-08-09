@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Audiowide&family=Bad+Script&family=Belanosima&family=Calistoga&family=Caveat:wght@600&family=Cherry+Bomb+One&family=Courgette&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@500;700&family=Didact+Gothic&family=EB+Garamond:wght@500&family=Geologica:wght@600&family=Handlee&family=Kaushan+Script&family=Lugrasimo&family=Merienda&family=Nunito+Sans&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300&family=Orbitron:wght@500&family=Patua+One&family=Play&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Tektur&family=Yanone+Kaffeesatz&family=Ysabeau+Office:wght@500&family=Ysabeau+SC:wght@500;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Audiowide&family=Bad+Script&family=Belanosima&family=Calistoga&family=Caveat:wght@600&family=Cherry+Bomb+One&family=Courgette&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@500;700&family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Edu+SA+Beginner:wght@500&family=Fugaz+One&family=Geologica:wght@600&family=Goldman:wght@400;700&family=Handlee&family=Itim&family=Kaushan+Script&family=Lugrasimo&family=Merienda&family=Nunito+Sans&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300&family=Orbitron:wght@500&family=Patua+One&family=Play&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Tektur&family=Yanone+Kaffeesatz&family=Ysabeau+Office:wght@500&family=Ysabeau+SC:wght@500;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Audiowide&family=Bad+Script&family=Belanosima&family=Calistoga&family=Caveat:wght@600&family=Cherry+Bomb+One&family=Courgette&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@500;700&family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Edu+SA+Beginner:wght@500&family=Fugaz+One&family=Geologica:wght@600&family=Goldman:wght@400;700&family=Handlee&family=Itim&family=Kaushan+Script&family=Lugrasimo&family=Merienda&family=Nunito+Sans&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300&family=Orbitron:wght@500&family=Patua+One&family=Play&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Tektur&family=Yanone+Kaffeesatz&family=Ysabeau+Office:wght@500&family=Ysabeau+SC:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&family=Arvo:ital@1&family=Audiowide&family=Bad+Script&family=Belanosima&family=Calistoga&family=Caveat:wght@600&family=Cherry+Bomb+One&family=Courgette&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@500;700&family=Didact+Gothic&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Edu+SA+Beginner:wght@500;600&family=Fugaz+One&family=Geologica:wght@600&family=Goldman:wght@400;700&family=Handlee&family=Itim&family=Kaushan+Script&family=Lugrasimo&family=Merienda&family=Mitr:wght@200;300;400&family=Nunito+Sans&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300&family=Orbitron:wght@500&family=Patua+One&family=Play&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Rokkitt:ital,wght@0,300;0,400;0,500;1,200;1,400&family=Space+Grotesk:wght@300;400;500&family=Tektur&family=Yanone+Kaffeesatz&family=Ysabeau+Office:wght@500&family=Ysabeau+SC:wght@500;600&family=Zilla+Slab:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rokkitt', serif;
+    /* font-family: "bai jamjuree"; */
+   
+    /* font-family: 'Archivo', sans-serif; */
+}
+nav{
+    background-color: #6cc7de;
+   
+
+}
+.nav-item a{
+    font-size: 18px;
+}
+
+.navbar-brand{
+    color: darkblue;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(249, 247, 247);
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px !important;
+}
+
+.heroContainer{
+   
+    padding: 100px;
+    background-color: #85c5d4;
+
+}
+.heroSection{
+    background-image: url(./images/bg.webp);
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 150px;
+    box-shadow: 1px 3px 4px 3px  grey;
+    border-radius: 25px;
+}
+
+.but{
+    background-color: #6cc7de;
+}
+.text{
+    text-decoration: none;
+    font-size: 18px;
+}
+.about{
+    background-color: #85c5d4;
+  
+    padding:  25px 100px;
+   
+}
+.aboutCon{
+    background-color:#fff8ed;
+   
+    box-shadow: 1px 3px 4px 3px  grey;
+    border-radius: 25px;
+    
+}
+.list a{
+    color: rgb(7, 7, 141);
+}
+.list i{
+    border-radius: 25px;
+    padding: 5px;
+    background-color: #6cc7de;
+    color: black;
+    font-size: 12px;
+}
+.qualContainer{
+    background-color: #85c5d4;
+    padding: 25px 100px;
+}
+.qual{
+    background-color: #fff8ed;
+    box-shadow: 1px 3px 4px 3px  grey;
+    border-radius: 25px;
+    
+}
+.pass{
+    /* font-weight: bolder; */
+   
+
+}
+.card{
+    background-color: #85c5d4 !important;
+}
+.skillsContainer{
+    background-color: #85c5d4;
+    padding: 25px 100px;
+}
+.skills{
+    background-color: #fff8ed;
+    box-shadow: 1px 3px 4px 3px  grey;
+    border-radius: 25px;
+}
+
+
+.card{
+    background-color: #4FC0D0;
+}
+
+.cards{
+    background-color: #4FC0D0;
+}
+.card-body img{
+    height: 40px;
+}
+.proContainer{
+    background-color: #85c5d4;
+    padding: 25px 100px;
+}
+.project{
+    background-color: #fff8ed;
+    box-shadow: 1px 3px 4px 3px  grey;
+    border-radius: 25px;
+}
+.cof{
+    overflow: hidden;
+    transition: all 0.5s;
+    width: 90%;
+   
+}
+.cof:hover{
+    box-shadow: -6px 6px 0 0 #404343;
+}
+
+.cof img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+.cof img:hover{
+    transform: scale(1.1);
+}
+.cof .card-body{
+    background-color: #fff8ed;
+}
+.sha{
+    /* width: 80%; */
+    overflow: hidden;
+    transition: all 0.5s;
+    box-shadow: -6px 6px 0 0 #404343;
+}
+    
+
+.formContainer{
+    background-color: #85c5d4;
+    padding: 25px 100px;
+}
+.form{
+    background-color: #fff8ed;
+    box-shadow: 1px 3px 4px 3px  grey;
+    border-radius: 25px;
+}
+.btn{
+    background-color: #6cc7de !important;
+}
+.footContainer{
+    background-color: #4FC0D0;
+}
+.link-custom{
+    /* font-weight: 700; */
+    position: relative;
+}
+.link-custom::after{
+    content: "";
+    /* width: 0%; */
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+   top: 90%;
+   transition: all 0.4s;
+}
+.link-custom:hover::after{
+    width: 100%;
+}
+.form-control::placeholder{
+    font-size: 18px;
+}
+#contact .form-control:focus{
+    border-color: black;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px){
+    .heroContainer{
+        padding: 80px 10px;
+    }
+    .heroSection{
+        padding: 30px 10px;
+    }
+    .about{
+        padding: 10px;
+    }
+    .aboutCon{
+        padding: 10px;
+    }
+    .qualContainer{
+        padding: 10px;
+    }
+    .qual{
+        padding: 10px;
+    }
+    .skillsContainer{
+        padding: 10px;
+    }
+    .skills{
+        padding: 10px;
+    }
+    .proContainer{
+        padding: 10px;
+    }
+    .formContainer{
+        padding: 10px;
+    }
+}
